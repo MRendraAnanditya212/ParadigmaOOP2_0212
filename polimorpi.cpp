@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-
-
-class joko : public seseorang 
+class seseorang 
 {
 public:
-    void pesan()
+    virtual void pesan()
     {
-        cout << "Pesan dari lia" << endl;
+        cout << "Pesan dari seseorang" << endl;
     }
 };
+
+
 
 class lia :  public seseorang
 {
